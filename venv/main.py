@@ -18,3 +18,8 @@ for i in range(30):
 
 while(cap.isOpened()):
     ret, img = cap.read()
+
+    if not ret:
+        break
+
+    hsv = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
