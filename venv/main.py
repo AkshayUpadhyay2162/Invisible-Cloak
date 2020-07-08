@@ -1,3 +1,4 @@
+# Harry potter theme invisible cloak project.
 # import libraries
 
 import numpy as np
